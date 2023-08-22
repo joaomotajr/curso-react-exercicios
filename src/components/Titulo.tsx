@@ -1,5 +1,5 @@
 import React, {Fragment} from "react";
-import { View, Text } from "react-native";
+import { Text } from "react-native";
 import estilo from "./estilo";
 
 

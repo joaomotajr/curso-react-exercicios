@@ -14,6 +14,7 @@ import Familia from './components/relacao/Familia';
 import Membro from './components/relacao/Membro';
 //export default () => <View><Primeiro /></View>
 import UsuarioLogado from './components/UsuarioLogado';
+import ListaProduto from './components/produtos/ListaProduto';
 
 export default () => (
   <SafeAreaView style = {style.App}>
@@ -35,10 +36,10 @@ export default () => (
       <Membro nome="John" sobreNome="Moto" element={<Button title='BTN' />}/>   
     </Familia> */}
     {/* <Text>{"ererer"}</Text> */}
-    <UsuarioLogado  nome={'Gui'} email={'gui@gui.com'} />
+    {/* <UsuarioLogado  nome={'Gui'} email={'gui@gui.com'} />
     <UsuarioLogado nome={'Ana'} />
-    <UsuarioLogado nome={''} />
- 
+    <UsuarioLogado nome={''} /> */}
+    <ListaProduto />
   </SafeAreaView>
 )
 const style = StyleSheet.create({
