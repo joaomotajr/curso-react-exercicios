@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, SafeAreaView, Text, Button } from 'react-native';
+import ListaProdutoV3 from './components/produtos/ListaProdutoV3';
 // import Primeiro from './components/Primeiro'
 // import Comp, {Comp1, Comp2 } from './components/Multi'
 // import MinMax from './components/MinMax';
@@ -10,11 +11,13 @@ import { View, StyleSheet, SafeAreaView, Text, Button } from 'react-native';
 // import ContadorV2 from './components/contador/ContadorV2';
 // import Diferenciar from './components/Diferenciar';
 // import Parimpar from './components/Parimpar';
-import Familia from './components/relacao/Familia';
-import Membro from './components/relacao/Membro';
+//import Familia from './components/relacao/Familia';
+//import Membro from './components/relacao/Membro';
 //export default () => <View><Primeiro /></View>
-import UsuarioLogado from './components/UsuarioLogado';
-import ListaProduto from './components/produtos/ListaProduto';
+//import UsuarioLogado from './components/UsuarioLogado';
+//import ListaProduto from './components/produtos/ListaProduto';
+//import ListaProdutoV2 from './components/produtos/ListaProdutoV2';
+//import DigiteSeuNome from './components/DigiteSeuNome';
 
 export default () => (
   <SafeAreaView style = {style.App}>
@@ -39,7 +42,10 @@ export default () => (
     {/* <UsuarioLogado  nome={'Gui'} email={'gui@gui.com'} />
     <UsuarioLogado nome={'Ana'} />
     <UsuarioLogado nome={''} /> */}
-    <ListaProduto />
+    {/* <ListaProduto /> */}
+    {/* <ListaProdutoV2 /> */}
+    <ListaProdutoV3 />
+    {/* <DigiteSeuNome /> */}
   </SafeAreaView>
 )
 const style = StyleSheet.create({
