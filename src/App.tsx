@@ -1,6 +1,9 @@
 import React from 'react';
 import { View, StyleSheet, SafeAreaView, Text, Button } from 'react-native';
 import ListaProdutoV3 from './components/produtos/ListaProdutoV3';
+import Quadrado from './components/layout/Quadrado';
+import FlexboxV4 from './components/layout/FlexboxV4';
+import Mega from './components/mega/Mega';
 // import Primeiro from './components/Primeiro'
 // import Comp, {Comp1, Comp2 } from './components/Multi'
 // import MinMax from './components/MinMax';
@@ -44,8 +47,13 @@ export default () => (
     <UsuarioLogado nome={''} /> */}
     {/* <ListaProduto /> */}
     {/* <ListaProdutoV2 /> */}
-    <ListaProdutoV3 />
+    {/* <ListaProdutoV3 /> */}
+    {/* <Quadrado cor='#900' lado={30} />
+    <Quadrado cor='#090' lado={30} />
+    <Quadrado cor='#009' lado={30} /> */}
     {/* <DigiteSeuNome /> */}
+    {/* <FlexboxV4 /> */}
+    <Mega qtdeNumeros={undefined}/>
   </SafeAreaView>
 )
 const style = StyleSheet.create({
